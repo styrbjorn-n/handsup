@@ -1,26 +1,15 @@
 INSERT MANDATORY GIF
 
-# Project Title
+php assignment 01
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
-
-# Installation
-
-Add the installation instructions.
+This project exists cuz im lazy and i imagen others may also be.
+So to make life a litle easier i made a website a teacher can use to see what students need help and in what order the students have requested help.
+Link goes here
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
-
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+Code review not written yet.
 
 # Testers
 
-Tested by the following people:
-
-1. Jane Doe
-2. John Doe
+No tester so far.
