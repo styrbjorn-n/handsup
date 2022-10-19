@@ -1,4 +1,4 @@
-https://i.gifer.com/NdVN.gif
+![](https://github.com/styrbjorn-n/php_assignment_01/blob/master/Mandatory_gif.gif)
 
 The gift was apparently mandatory.
 
