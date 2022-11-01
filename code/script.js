@@ -1,20 +1,24 @@
-const help_que = document.getElementsByClassName ("help_que")[0];
-const student_list = document.getElementById("student_list");
-const user_input = document.getElementById("user_input");
+const help_que = document.getElementsByClassName ('help_que')[0];
+const student_list = document.getElementById('student_list');
+const user_input = document.getElementById('user_input');
 
 function add_item(){
-    var h2 = document.createElement("h2");
-    h2.innerHTML = ". " + user_input.value;
+    var student = document.createElement("div");
+    student.innerHTML = '<h2>'+ '- ' + user_input.value +'</h2>';
+    student.setAttribute("id", "student")
+    student_list.appendChild(student);
 
-    h2.addEventListener("click", function(){
-        h2.value = "";
-    })
-
-    user_input.value = "";
+    setListener(student);
 }
 
-user_input.addEventListener("click", function(event){
-    if(event.key == "enter") {
+function setListener(event_list) {
+    event_list.addEventListener('click', function() {
+        this.remove();
+    });
+}
+
+function enter() {
+    if(event.key === 'Enter') {
         add_item();
     }
-})
+}
