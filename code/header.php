@@ -10,4 +10,4 @@
     <title>handsup</title>
 </head>
 <body>
-    <script src="script.js"></script>
+<?php require ("./student_clearer.php"); ?>
