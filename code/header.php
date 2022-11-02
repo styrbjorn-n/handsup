@@ -1,3 +1,23 @@
+<?php require ("./student_clearer.php"); ?>
+<?php 
+    $about_lines = [
+        $first_lines = [
+            'This webtool was made to help',
+            'teatchers keep tarck of which',
+            'student are in need of help',
+            'in the classroom.',
+        ],
+        $second_lines = [
+            "add" => "To add a student to the help que,
+            the teacher simply needs to enter the
+            students name in the input field seen below.",
+            "remove" => "Once a student has resived help,
+            they can be removed from the list. 
+            Simply by pressing on there name."
+
+        ],
+    ];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,4 +30,3 @@
     <title>handsup</title>
 </head>
 <body>
-<?php require ("./student_clearer.php"); ?>

@@ -10,5 +10,17 @@
         <div id="student_list"></div>
     </div>
 </div>
+<div class="about">
+    <div class="why">
+        <?php foreach ($about_lines[0] as $line) : ?>
+        <p class="why_lines"><?php echo $line; ?></p>
+        <?php endforeach; ?>
+    </div>
+    <div class="how">
+        <?php foreach($about_lines[1] as $key => $value) : ?>
+        <p class="how_para"><?php echo $value ?></p>
+        <?php endforeach; ?>
+    </div>
+</div>
 
 <?php require ("./footer.php"); ?>
