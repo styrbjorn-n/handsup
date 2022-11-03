@@ -3,17 +3,17 @@
     $about_lines = [
         $first_lines = [
             'This webtool was made to help',
-            'teatchers keep tarck of which',
-            'student are in need of help',
-            'in the classroom.',
+            'teachers keep track of which',
+            'students are in need of help',
+            'n the classroom.',
         ],
         $second_lines = [
-            "add" => "To add a student to the help que,
+            "add" => "To add a student to the help queue,
             the teacher simply needs to enter the
-            students name in the input field seen below.",
-            "remove" => "Once a student has resived help,
-            they can be removed from the list. 
-            Simply by pressing on there name."
+            student's name into the input field, seen below.",
+            "remove" => "Once a student has received help,
+            they can be removed from the list, 
+            by simply pressing on their name."
 
         ],
     ];
