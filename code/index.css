@@ -6,15 +6,56 @@
 
 body {
     background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     display: flex;
     flex-direction: column-reverse;
-    
-}
-.student-item {
-    background-color: aquamarine;
+    width: 80%;
 }
 .about {
+    background-color: rgb(40, 40, 40);
     display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.how {
+    min-width: 30%;
+    padding: 2%;
+}
+.why {
+    min-width: 40%;
+    padding: 2%;
+}
+.function_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help_que {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.list_head {
+    display: flex;
+}
+.student_list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.student-item {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+}
+.user_input {
+    color: rgb(40, 40, 40);
+    border-radius: 5px;
+    width: 100%;
+    padding: 2px;
 }

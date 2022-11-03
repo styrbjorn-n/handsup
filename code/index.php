@@ -4,11 +4,11 @@
     <div class="function_container">
         <div class="help_que">
             <h1>Student list</h1>
-            <div>
-                <input class="user_input" id="user_input" type="text" onkeydown="enter(this)">
+            <div class="list_head">
+                <input class="user_input" id="user_input" type="text" onkeydown="enter(this)" maxlength=23>
                 <p id="result"></p>
             </div>
-            <div id="student_list"></div>
+            <div id="student_list" class="student_list"></div>
         </div>
     </div>
     <div class="about">
