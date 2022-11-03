@@ -21,7 +21,8 @@ const user_input = document.getElementById('user_input');
 function add_student(){
     var student = document.createElement("div");
     student.innerHTML = '<h2>'+ '- ' + user_input.value +'</h2>';
-    student.setAttribute("id", "student")
+    student.setAttribute("id", "student");
+    student.setAttribute("class", "student-item");
     student_list.appendChild(student);
 
     setListener(student);
