@@ -22,4 +22,5 @@ Clean and simple tracking application. Overall really clean code structure and d
 
 # Testers
 
-Adam Garali.
+- Adam Garali.
+- Lucas Källberg.
